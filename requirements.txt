@@ -8,3 +8,7 @@ accelerate
 scikit-learn
 pandas
 trl
+numpy
+gensim
+tqdm
+matplotlib
