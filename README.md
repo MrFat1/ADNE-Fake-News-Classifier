@@ -1,6 +1,10 @@
 # 📰 ADNE Fake News Classifier
 Comparative study of Machine Learning, Deep Learning, and Transformer-based models for fake news text classification. he repository benchmarks and compares a range of approaches — from classical ML baselines to transformer-based models — to classify news articles as real or fake.
 
+Beyond classification, this project includes a **GAN (Generative Adversarial Network)** component that *generates* synthetic fake news articles. The architecture pairs a transformer-based **Generator** (which produces realistic-looking text) against a **Discriminator** (which learns to distinguish generated content from real articles). Training the two networks in opposition pushes the generator to produce increasingly convincing fake news samples.
+ 
+This dual approach — both detecting and generating fake news — provides deeper insight into what linguistic patterns make misinformation believable, and can be used to augment training data for the classifiers.
+
 ---
  
 ## 🧠 Models & Approaches
@@ -10,7 +14,7 @@ Comparative study of Machine Learning, Deep Learning, and Transformer-based mode
 | **Classical ML** | Logistic Regression |
 | **Deep Learning** | LSTM neural network |
 | **Transformers** | BERT and/or fine-tuned variants |
-| **Generation** | GAN, Markov Chains |
+| **Fake news generation** | GAN, Markov Chains |
  
 Each approach is implemented as a self-contained Python script, making it easy to run and compare results independently.
 
