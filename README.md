@@ -1,4 +1,4 @@
-# 📰 ADNE: Fake News Classifier & Generator
+# ADNE: Fake News Classifier & Generator
 Comparative study of Machine Learning, Deep Learning, and Transformer-based models for fake news text classification. The repository benchmarks and compares a range of approaches — from classical ML baselines to transformer-based models — to classify news articles as real or fake.
 
 Beyond classification, this project includes a **GAN (Generative Adversarial Network)** component that *generates* synthetic fake news articles. The architecture pairs a transformer-based **Generator** (which produces realistic-looking text) against a **Discriminator** (which learns to distinguish generated content from real articles). Training the two networks in opposition pushes the generator to produce increasingly convincing fake news samples.
@@ -7,20 +7,18 @@ This dual approach — both detecting and generating fake news — provides deep
 
 ---
  
-## 🧠 Models & Approaches
+## Models & Approaches
  
 | Approach | Examples |
 |---|---|
 | **Classical ML** | Logistic Regression (Classifier), Markov Chains (Generator) |
-| **Deep Learning** ||
+| **Deep Learning** | |
 | **Transformers** |  |
 | **Fake news generation** |  |
  
-Each approach is implemented as a self-contained Python script, making it easy to run and compare results independently.
-
 ---
  
-## 📁 Project Structure
+## Project Structure
  
 ```
 ADNE-Fake-News-Classifier/
@@ -30,7 +28,7 @@ ADNE-Fake-News-Classifier/
 ```
 ---
  
-## ⚙️ Setup
+## Setup
  
 ### Prerequisites
  
@@ -47,7 +45,7 @@ pip install -r requirements.txt
  
 ---
 
-## 📊 Results
+## Results
 Each notebook draws conclusions from the work performed within it.
 
 To provide an overview of the project, the main results are summarized below:
@@ -64,12 +62,12 @@ To provide an overview of the project, the main results are summarized below:
 
 ---
 
-## 📦 Dataset
+## Dataset
  
 This project uses a labeled fake news dataset (https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). 
  
 ---
 
-## 📚 Course Context
+## Course Context
  
 This project was submitted as part of the **ADNE** course. It serves as a practical exploration of NLP model selection, text preprocessing, and evaluation methodology in the context of a real-world classification and text generation problem.
