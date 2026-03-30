@@ -7,9 +7,10 @@ Comparative study of Machine Learning, Deep Learning, and Transformer-based mode
  
 | Approach | Examples |
 |---|---|
-| **Classical ML** | Logistic Regression, Markov Chains |
+| **Classical ML** | Logistic Regression |
 | **Deep Learning** | LSTM neural network |
 | **Transformers** | BERT and/or fine-tuned variants |
+| **Generation** | GAN, Markov Chains |
  
 Each approach is implemented as a self-contained Python script, making it easy to run and compare results independently.
 
