@@ -41,7 +41,7 @@ ADNE-Fake-News-Classifier/
 pip install -r requirements.txt
 ```
  
-> For transformer models, a GPU is strongly recommended. 
+> For transformer and GAN models, a GPU is strongly recommended. 
  
 ---
 
@@ -58,7 +58,7 @@ To provide an overview of the project, the main results are summarized below:
 
 * 
 
-* 
+* **Deep Learning Generators (GAN and Transformers):** The GAN showed poor semantic coherence in title generation, producing outputs that lacked meaningful structure, therefore we tried using a pre trained embeddings model, giving better results but still not believable news. On the other hand the transformers model was able to make better outputs, generating titles with semantic structure without needing much training.
 
 ---
 
