@@ -12,8 +12,8 @@ This dual approach — both detecting and generating fake news — provides deep
 | Approach | Examples |
 |---|---|
 | **Classical ML** | Logistic Regression (Classifier), Markov Chains (Generator) |
-| **Deep Learning** | |
-| **Transformers** |  |
+| **Deep Learning** | LSTM (Classifier) |
+| **Transformers** | BERT (Classifier) |
 | **Fake news generation** |  |
  
 ---
